@@ -1,0 +1,65 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-04 12:35 EDT
+Nmap scan report for 10.230.171.15
+Host is up (0.00074s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http       Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Site doesn't have a title.
+| http-methods: 
+|_  Potentially risky methods: TRACE
+6646/tcp open  tcpwrapped
+7680/tcp open  pando-pub?
+MAC Address: 64:32:A8:FE:CD:06 (Intel Corporate)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 11|10|2008 (91%), FreeBSD 6.X (88%)
+OS CPE: cpe:/o:microsoft:windows_11 cpe:/o:freebsd:freebsd:6.2 cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_server_2008::beta3 cpe:/o:microsoft:windows_server_2008
+Aggressive OS guesses: Microsoft Windows 11 21H2 (91%), FreeBSD 6.2-RELEASE (88%), Microsoft Windows 10 (86%), Microsoft Windows Server 2008 or 2008 Beta 3 (85%), Microsoft Windows 10 1607 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.74 ms 10.230.171.15
+
+Nmap scan report for 10.230.171.50
+Host is up (0.040s latency).
+All 65535 scanned ports on 10.230.171.50 are in ignored states.
+Not shown: 65535 closed tcp ports (reset)
+MAC Address: 8E:25:77:92:42:34 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   40.39 ms 10.230.171.50
+
+Nmap scan report for 10.230.171.124
+Host is up (0.0059s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.51
+| dns-nsid: 
+|_  bind.version: dnsmasq-2.51
+MAC Address: 1E:5D:0D:D9:EE:99 (Unknown)
+Device type: phone
+Running: Google Android 10.X, Linux 4.X
+OS CPE: cpe:/o:google:android:10 cpe:/o:linux:linux_kernel:4
+OS details: Android 9 - 10 (Linux 4.9 - 4.14)
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.90 ms 10.230.171.124
+
+Nmap scan report for 10.230.171.90
+Host is up (0.00016s latency).
+All 65535 scanned ports on 10.230.171.90 are in ignored states.
+Not shown: 65535 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (4 hosts up) scanned in 156.13 seconds
